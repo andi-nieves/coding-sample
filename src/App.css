@@ -1,0 +1,66 @@
+.App {
+  max-width: 1024px;
+  margin: auto;
+  background-color: rgb(241, 239, 239);
+  padding: 50px;
+  border: 1px solid #ccc;
+}
+.returnButton {
+  background-color: rgb(218, 214, 214);
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  position: absolute;
+  top: 73px;
+}
+.returnButton:hover {
+  background-color: rgb(211, 208, 208);
+}
+.title {
+  text-align: center;
+  border-bottom: 2px solid #333;
+  padding-bottom: 20px;
+}
+ul {
+  border: 1px solid #ccc;
+  padding: 5px;
+  list-style: none;
+  margin: 0;
+  margin-top: 10px;
+}
+ul li {
+  padding: 10px !important;
+  cursor: pointer;
+}
+ul li:nth-child(odd) {
+  background-color: #ccc;
+}
+ul li:hover {
+  background-color: rgba(160, 160, 160, 1);
+  color: #fff;
+}
+.searchBox {
+  position: relative;
+}
+.searchBox .fas.fa-search {
+  position: absolute;
+  top: 26px;
+  left: 10px;
+  color: rgba(160, 160, 160, 1);
+}
+.searchBox .fas.fa-times-circle {
+  position: absolute;
+  top: 26px;
+  right: 10px;
+  color: rgba(160, 160, 160, 1);
+  cursor: pointer;
+}
+.searchBox .fas.fa-times-circle:hover {
+  color: red;
+}
+.searchInput {
+  height: 30px;
+  border: 1px solid rgba(200, 200, 200, 0.3);
+  width: calc(100% - 33px);
+  padding-left: 30px;
+}
