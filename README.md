@@ -1,4 +1,4 @@
-## React Code Test
+## React JS Sample Coding
 
 In the project directory, run:
 
